@@ -25,7 +25,6 @@ function gameRandom() {
         checkNumber();
       } else if (num === randomNumber ) {
         alert('Вы угадали!игра окончена,спасибо за игру');
-        checkNumber();
       }
       
     } else {
