@@ -19,10 +19,13 @@ function gameRandom() {
     if (isNumber(userNumber)) {
       if (num > randomNumber) {
         alert('Вы не угадали!Число МЕНЬШЕ');
+        checkNumber();
       } else if (num < randomNumber) {
         alert('Вы не угадали!Число БОЛЬШЕ');
+        checkNumber();
       } else if (num === randomNumber ) {
         alert('Вы угадали!игра окончена,спасибо за игру');
+        checkNumber();
       }
       
     } else {
